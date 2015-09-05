@@ -2,16 +2,19 @@
   "name": "react-photo-select",
   "version": "0.1.0",
   "description": "/dev/null",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "task": "node ./scripts/task.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [
-    "react",
-    "router"
+    "react"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/towry/react-photo-select"
+  }, 
   "author": "Towry Wang",
   "license": "MIT",
   "dependencies": {
