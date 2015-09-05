@@ -1,0 +1,28 @@
+
+.select-container {
+  position: relative;
+
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.select-action, 
+.select-photos {
+  position: relative;
+}
+
+.select-photos {
+  overflow-y: scroll;
+}
+
+.select-photos::after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.select-photos .photo-item {
+  float: left;
+}
